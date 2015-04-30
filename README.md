@@ -13,7 +13,7 @@ sudo npm install -g git+https://github.com/finpo/jade-email-generate.git
 
 ### use
 ```console
-mkdir email && cd email && mkdir tempaltes && mkdir render
+mkdir email && cd email && mkdir templates && mkdir render
 
 cd templates && mkdir welecome
 // put your html.jade and text.ejs template in welecome
