@@ -13,7 +13,7 @@ if( program.args.length != 1){
   program.help();
 }else{
   emailTemplates( 'templates' , { open: '{{', close: '}}' }, function(err, template ) {
-
+    console.log(err);
     template( program.args[0] , {}, function(err, html, text) {
       if (err) {
         console.log(err);
