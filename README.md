@@ -18,5 +18,6 @@ mkdir email && cd email && mkdir templates && mkdir render
 cd templates && mkdir welecome
 // put your html.jade and text.ejs template in welecome
 
+// at email foder use
 jademail welecome
 ```
