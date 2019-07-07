@@ -16,7 +16,7 @@
     "email-templates": "^2.0.0",
     "jade": "^1.9.1",
     "stylus": "^0.54.3",
-    "snyk": "^1.28.0"
+    "snyk": "^1.192.3"
   },
   "bin": {
     "jademail": "index.js"
